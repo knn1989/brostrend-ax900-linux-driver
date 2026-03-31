@@ -57,7 +57,7 @@ sudo depmod -a
 ```
 
 ### Step 6: Load the Module
-The installation script appends `_git` to the driver name to prevent conflicts with default, incomplete kernel drivers. Load the correct module by running:
+The installation script appends `_git` to the driver name to prevent conflicts with default, incomplete kernel drivers. Load the module by running:
 
 ```bash
 sudo modprobe rtw89_8851bu_git
