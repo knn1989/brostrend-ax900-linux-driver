@@ -1,6 +1,6 @@
 # How to Install Wi-Fi Driver for the BrosTrend AX900 WiFi & Bluetooth Adapter (Realtek RTL8851BU) on Ubuntu
 
-This guide covers the installation of the `rtw89` driver for the BrosTrend AX900 WiFi Bluetooth USB adapter (Hardware ID `0bda:b851`) on Ubuntu Linux. 
+This guide covers the installation of the `rtw89` driver for the [BrosTrend AX900 WiFi Bluetooth USB Adapter](https://www.brostrend.com/products/wb1?srsltid=AfmBOoqYnU2w1SEVmSyPXpVXHX-QbRrMNiAHWpwthUokaG8oGgzLkN4N) (Hardware ID `0bda:b851`) on Ubuntu Linux. 
 
 **Note:** You might confuse this chipset with the RTL8852BU. If your `lsusb` shows `0bda:b851`, you *must* use the `rtw89` unified driver, not the older standalone 8852 drivers.
 
